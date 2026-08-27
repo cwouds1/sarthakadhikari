@@ -18,8 +18,8 @@
 }
 
 .social-icons{
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: center !important;
     align-items: center;
     gap: 49px; /* More space between logos */
     flex-wrap: wrap;
