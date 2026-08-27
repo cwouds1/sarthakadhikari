@@ -1,83 +1,202 @@
-/* ===== SOCIAL MEDIA SECTION ===== */
+/* =========================================
+   MY SOCIAL MEDIA SECTION
+========================================= */
 
-/* SOCIAL ICON CONTAINER */
+.my-social-section {
+    width: 100%;
+    padding: 90px 20px 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
 
-.social-icons {
+
+.my-social-section h2 {
+    margin: 0 0 12px;
+
+    color: #ffffff;
+
+    font-size: 42px;
+    font-weight: 700;
+}
+
+
+.my-social-section p {
+    margin: 0 0 45px;
+
+    color: #9da4ba;
+
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* ICON CONTAINER */
+
+.my-social-icons {
+
     display: flex !important;
+
     justify-content: center !important;
+
     align-items: center !important;
 
-    width: 100%;
+    width: 100% !important;
+
+    margin: 0 auto !important;
 
     gap: 55px !important;
 
-    flex-wrap: nowrap;
 }
 
 
-/* SOCIAL ICONS */
+/* INDIVIDUAL ICON */
 
-.social-icons a {
-    width: 65px;
-    height: 65px;
+.my-social-icons a {
 
-    flex: 0 0 65px;
+    width: 68px !important;
+    height: 68px !important;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-width: 68px !important;
 
-    border-radius: 50%;
+    display: flex !important;
 
-    text-decoration: none;
+    align-items: center !important;
 
-    font-size: 28px;
-    color: white;
+    justify-content: center !important;
 
-    background: rgba(255, 255, 255, 0.08);
+    box-sizing: border-box !important;
 
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 50% !important;
 
-    backdrop-filter: blur(12px);
+    text-decoration: none !important;
+
+    color: #ffffff !important;
+
+    font-size: 27px !important;
+
+    background: rgba(255, 255, 255, 0.07) !important;
+
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
 
     box-shadow:
-        0 12px 30px rgba(0, 0, 0, 0.18);
+        0 12px 30px rgba(0, 0, 0, 0.25) !important;
 
     transition:
-        transform 0.35s ease,
-        background 0.35s ease,
-        box-shadow 0.35s ease;
+        transform 0.3s ease,
+        background 0.3s ease,
+        box-shadow 0.3s ease !important;
+
 }
 
 
-.social-icons a:hover {
+/* REMOVE UNDERLINES */
 
-    transform: translateY(-8px) scale(1.08);
+.my-social-icons a,
+.my-social-icons a:hover,
+.my-social-icons a:visited {
+
+    text-decoration: none !important;
+
+}
+
+
+/* HOVER */
+
+.my-social-icons a:hover {
+
+    transform:
+        translateY(-8px)
+        scale(1.08) !important;
+
+    color: #ffffff !important;
 
     box-shadow:
-        0 20px 40px rgba(124, 124, 255, 0.35);
+        0 20px 40px rgba(0, 0, 0, 0.35) !important;
+
 }
 
-/* Individual hover colors */
 
-.facebook:hover{
-    background:#1877F2;
+/* FACEBOOK */
+
+.my-social-icons .my-facebook:hover {
+
+    background: #1877f2 !important;
+
 }
 
-.instagram:hover{
-    background:#E4405F;
+
+/* INSTAGRAM */
+
+.my-social-icons .my-instagram:hover {
+
+    background: #e4405f !important;
+
 }
 
-.linkedin:hover{
-    background:#0A66C2;
+
+/* LINKEDIN */
+
+.my-social-icons .my-linkedin:hover {
+
+    background: #0a66c2 !important;
+
 }
 
-.email:hover{
-    background:#EA4335;
+
+/* EMAIL */
+
+.my-social-icons .my-email:hover {
+
+    background: #ea4335 !important;
+
 }
 
-.discord:hover{
-    background:#5865F2;
+
+/* DISCORD */
+
+.my-social-icons .my-discord:hover {
+
+    background: #5865f2 !important;
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 700px) {
+
+    .my-social-icons {
+
+        gap: 25px !important;
+
+        flex-wrap: wrap !important;
+
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+    .my-social-icons {
+
+        gap: 18px !important;
+
+    }
+
+    .my-social-icons a {
+
+        width: 58px !important;
+        height: 58px !important;
+
+        min-width: 58px !important;
+
+        font-size: 23px !important;
+
+    }
+
 }
 * {
     margin: 0;
