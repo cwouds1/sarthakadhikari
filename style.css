@@ -1752,6 +1752,8 @@ footer p {
 
     margin: 0 auto;
 
+    flex-direction: row;
+
     display: flex;
 
     justify-content: space-between;
