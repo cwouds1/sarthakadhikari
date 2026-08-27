@@ -1694,7 +1694,7 @@ footer p {
 
     color: #7777ff;
 
-    font-size: 13px;
+    font-size: 30px;
 
     font-weight: 700;
 
@@ -1733,7 +1733,7 @@ footer p {
 
     color: #9da4ba;
 
-    font-size: 17px;
+    font-size: 30px;
 
     line-height: 1.8;
 
@@ -1758,7 +1758,7 @@ footer p {
 
     align-items: flex-start;
 
-    gap: 45px;
+    gap: 50px;
 
 }
 
@@ -1773,9 +1773,9 @@ footer p {
 
     min-width: 150px;
 
-    display: flex;
+    display:flex;
 
-    flex-direction: column;
+    flex-direction:row;
 
     align-items: center;
 
