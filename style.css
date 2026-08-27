@@ -96,6 +96,7 @@
 .my-social-icons a:visited {
 
     text-decoration: none !important;
+    text-underline-position:unset;
 
 }
 
