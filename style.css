@@ -1775,6 +1775,8 @@ footer p {
 
     display:flex;
 
+    align-items: flex-start;
+
     flex-direction:row;
 
     align-items: center;
@@ -1802,6 +1804,9 @@ footer p {
 
     align-items: flex-start;
 
+    flex-direction: row;
+
+
     flex-wrap: wrap;
     
     justify-content: center;
@@ -1810,7 +1815,7 @@ footer p {
 
     border-radius: 22px;
 
-    font-size: 32px;
+    font-size: 40px;
 
     background: rgba(255, 255, 255, 0.055);
 
@@ -1837,7 +1842,7 @@ footer p {
 
     color: #f4f5fa;
 
-    font-size: 17px;
+    font-size: 40px;
 
     font-weight: 600;
 
@@ -1854,7 +1859,7 @@ footer p {
 
     color: #858ca0;
 
-    font-size: 13px;
+    font-size: 40px;
 
     line-height: 1.5;
 
